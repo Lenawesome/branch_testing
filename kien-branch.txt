@@ -1,1 +1,9 @@
-hihihihihi
+﻿git branch <name>: tạo branch mới
+git checkout <name>: chuyển sang một branch sẵn có
+git checkout -b <name>: tạo và chuyển sang brach sẵn có
+git checkout -b <name1> <name2>: tạo mới branch từ branch name1 với tên name2 và chuyển sanng branch đó
+
+
+* Để pull 1 branch mà tại local chưa có:
+- git pull tại master ?
+- git checkout --track origin/<namebranch>
